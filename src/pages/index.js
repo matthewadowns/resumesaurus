@@ -32,12 +32,11 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Resume and personal site for Matthew Alan Downs">
       <HomepageHeader />
       <main>
-        Test<br/>
-        <h1 align="center">Coming soon!</h1>
+        <h1 align="center" style={{paddingTop: "1em"}}>Coming soon!</h1>
         <HomepageFeatures />
       </main>
     </Layout>
