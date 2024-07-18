@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -17,11 +18,13 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          <a
             className="button button--secondary button--lg"
-            to="/docs/resume">
-            My Resume
-          </Link>
+            download="MatthewADownsResume2024.pdf"
+            href={useBaseUrl('pdf/MatthewADownsResume2024.pdf')}
+          >
+            Download Resume (PDF)
+          </a>
         </div>
       </div>
     </header>
