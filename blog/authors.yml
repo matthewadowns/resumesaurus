@@ -1,17 +1,6 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+mdowns:
+  name: Matthew Alan Downs
+  title: Senior Product Manager
+  url: https://www.linkedin.com/in/matthewadowns/
+  image_url: https://avatars.githubusercontent.com/u/1906670?v=4
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
