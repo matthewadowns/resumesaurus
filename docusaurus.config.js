@@ -51,6 +51,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-YH0D57F55G',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
