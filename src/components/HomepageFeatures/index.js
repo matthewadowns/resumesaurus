@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'People-centric',
+    title: 'Product Management',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Build with empathy.
+        Strategy with empathy.
       </>
     ),
   },
   {
-    title: 'Technical Accumen',
+    title: 'Software Development, Consulting and Services',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Frontend, backend, cloud infrastructure, tools.
+        People-centric, socio-technical systems.
       </>
     ),
   },
   {
-    title: 'Business Saavy',
+    title: 'Technical Writing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Lead with context, clarity, focus.
+        Context, clarity, focus.
       </>
     ),
   },

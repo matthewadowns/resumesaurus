@@ -17,15 +17,6 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <a
-            className="button button--secondary button--lg"
-            download="MatthewADownsResume2024.pdf"
-            href={useBaseUrl('pdf/MatthewADownsResume2024.pdf')}
-          >
-            Download Resume (PDF)
-          </a>
-        </div>
       </div>
     </header>
   );
@@ -41,6 +32,15 @@ export default function Home() {
       <main>
         <h1 align="center" style={{paddingTop: "1em"}}>Coming soon!</h1>
         <HomepageFeatures />
+        <div className={styles.buttons}>
+          <a
+            className="button button--secondary button--lg"
+            download="MatthewADownsResume2024.pdf"
+            href={useBaseUrl('pdf/MatthewADownsResume2024.pdf')}
+          >
+            Download Resume (PDF)
+          </a>
+        </div>
       </main>
     </Layout>
   );
