@@ -19,7 +19,7 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -89,7 +89,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Site',
+            title: 'This Site',
             items: [
               {
                 label: 'Resume',
@@ -99,10 +99,14 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              {
+                label: 'Give Feedback',
+                href: 'https://www.admonymous.co/matthewadowns'
+              }
             ],
           },
           {
-            title: 'More Matthew',
+            title: 'More on the Web',
             items: [
               {
                 label: 'LinkedIn',
@@ -117,13 +121,17 @@ const config = {
                 href: 'https://github.com/matthewadowns',
               },
               {
+                label: 'Readme',
+                href: 'https://github.com/matthewadowns/readme',
+              },
+              {
                 label: 'Email me',
                 href: 'mailto:downs.matt@gmail.com',
               },
             ],
           },
           {
-            title: 'Companies',
+            title: 'Past Companies',
             items: [
               {
                 label: 'Foursquare',
@@ -144,6 +152,10 @@ const config = {
               {
                 label: 'Demandbase',
                 href: 'https://demandbase.com',
+              },
+              {
+                label: 'Intuit',
+                href: 'https://intuit.com',
               },
             ],
           },
